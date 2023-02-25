@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "prisma-init": "deno run --allow-sys --allow-run --allow-net --allow-read --allow-env --allow-write npm:prisma@^4.5 init",
+    "prisma-db-push": "deno run -A npm:prisma@^4.5 db push",
+    "prisma-data-proxy": "deno run -A --unstable npm:prisma@^4.5 generate --data-proxy"
+  }
+}
