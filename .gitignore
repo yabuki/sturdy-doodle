@@ -2,6 +2,7 @@ src/node_modules
 # Keep environment variables out of version control
 src/.env
 src/generated/
+src/prisma/
 src/deno.lock
 src/package-lock.json
 src/package.json
