@@ -13,7 +13,7 @@ DenoでPostgreSQLにダミーデータを入れ込む習作
 - prismaをインストールする。deno task の prisma-init を実行してください。下記のような結果になります。
 - 次に相対ディレクトリのprisma/schema.prismaを編集します。初期状態は下記です。
 
-```json
+```jsonc
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
@@ -28,7 +28,7 @@ datasource db {
 ```
 
 これを、下記のように書き換えます。
-```json
+```jsonc
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
