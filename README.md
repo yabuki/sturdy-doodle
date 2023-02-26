@@ -55,6 +55,5 @@ model goods {
 
 ```
 $ deno task prisma-db-push
-
 ```
 - その後、schema/prisma.schemaに書いてある output の場所に、必要なテンプレートコードを生成するために `deno task prisma-data-proxy`を実行する。この時、2023-02-25の時点ではnpmがないと失敗する。何らかの方法でnpmをインストールする必要は、前述の [Deploy to Deno Deploy](https://www.prisma.io/docs/guides/deployment/deployment-guides/deploying-to-deno-deploy) にもあるとおり。わたしは、 [GitHub - nvm-sh/nvm: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions](https://github.com/nvm-sh/nvm) を利用したが、これに限らない。
